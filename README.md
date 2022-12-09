@@ -1,7 +1,6 @@
 # open AI로 만든 Image 생성기
 [DALL-E 링크](https://labs.openai.com/)
 ## 설명
----
 이 레포지토리는 openAI사에서 제공하는 DALL-E라는 이미지 생성기를 모듈로 받아 파이썬으로 구현해놓은 코드를 올린 것이다.
 
 대략적인 사용 방법은 다음과 같다.
@@ -10,7 +9,6 @@
 3. url 주소에서 이미지를 사용한다.
 4. Done!
 ## 사용법
----
 #### 먼저 openai 모듈을 pip으로 설치한다.
 ```
 pip install openai
