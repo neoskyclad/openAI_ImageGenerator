@@ -4,9 +4,9 @@ import openai
 # Load your API key from an environment variable or secret management service
 openai.api_key = "본인 api key"  #openAI 홈페이지에서 본인의 api key 복붙하면 됨
 
-variation_num = 6
+variation_num = 2
 response = openai.Image.create(
-  prompt="neoskyclad", #생성하고 싶은 키워드 or 문장
+  prompt="sans and papyrus from undertale", #생성하고 싶은 키워드 or 문장
   n=variation_num,  #바리에이션 생성 개수
   size="512x512"  #256x256, 512x512, or 1024x1024
 )
